@@ -1,0 +1,6 @@
+2026-03-16 23:01:05,022 - rag_chain - INFO - {"timestamp": "2026-03-16T17:31:05.022222", "event": "Building RAG chain..."}
+2026-03-16 23:01:05,024 - rag_chain - INFO - {"timestamp": "2026-03-16T17:31:05.024455", "event": "RAG chain built successfully"}
+2026-03-16 23:01:08,186 - rag_chain - INFO - {"timestamp": "2026-03-16T17:31:08.186608", "event": "Streaming RAG chain response", "query": "hi"}
+2026-03-16 23:01:26,762 - rag_chain - ERROR - {"timestamp": "2026-03-16T17:31:26.762769", "event": "RAG chain streaming failed", "query": "hi", "error": "Connection error."}
+2026-03-16 23:01:32,211 - rag_chain - INFO - {"timestamp": "2026-03-16T17:31:32.211011", "event": "Streaming RAG chain response", "query": "hi"}
+2026-03-16 23:01:50,407 - rag_chain - ERROR - {"timestamp": "2026-03-16T17:31:50.407608", "event": "RAG chain streaming failed", "query": "hi", "error": "Connection error."}

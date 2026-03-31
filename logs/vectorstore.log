@@ -1,0 +1,19 @@
+2026-03-16 22:54:59,945 - vectorstore - INFO - {"timestamp": "2026-03-16T17:24:59.945282", "event": "VectorStoreManager initialized", "collection": "main"}
+2026-03-16 22:54:59,945 - vectorstore - INFO - {"timestamp": "2026-03-16T17:24:59.945718", "event": "Initializing embeddings...", "model": "BAAI/bge-small-en-v1.5"}
+2026-03-16 22:54:59,946 - vectorstore - ERROR - {"timestamp": "2026-03-16T17:24:59.946163", "event": "Failed to initialize embeddings", "error": "SentenceTransformer.__init__() got an unexpected keyword argument 'batch_size'"}
+2026-03-16 22:55:01,947 - vectorstore - INFO - {"timestamp": "2026-03-16T17:25:01.947339", "event": "Initializing embeddings...", "model": "BAAI/bge-small-en-v1.5"}
+2026-03-16 22:55:01,950 - vectorstore - ERROR - {"timestamp": "2026-03-16T17:25:01.950011", "event": "Failed to initialize embeddings", "error": "SentenceTransformer.__init__() got an unexpected keyword argument 'batch_size'"}
+2026-03-16 22:55:03,950 - vectorstore - INFO - {"timestamp": "2026-03-16T17:25:03.950889", "event": "Initializing embeddings...", "model": "BAAI/bge-small-en-v1.5"}
+2026-03-16 22:55:03,951 - vectorstore - ERROR - {"timestamp": "2026-03-16T17:25:03.951553", "event": "Failed to initialize embeddings", "error": "SentenceTransformer.__init__() got an unexpected keyword argument 'batch_size'"}
+2026-03-16 22:58:57,382 - vectorstore - INFO - {"timestamp": "2026-03-16T17:28:57.382669", "event": "VectorStoreManager initialized", "collection": "main"}
+2026-03-16 22:58:57,382 - vectorstore - INFO - {"timestamp": "2026-03-16T17:28:57.382918", "event": "Initializing embeddings...", "model": "BAAI/bge-small-en-v1.5"}
+2026-03-16 22:58:57,383 - vectorstore - ERROR - {"timestamp": "2026-03-16T17:28:57.383021", "event": "Failed to initialize embeddings", "error": "'EmbeddingConfig' object has no attribute 'batch_size'"}
+2026-03-16 22:58:59,383 - vectorstore - INFO - {"timestamp": "2026-03-16T17:28:59.383542", "event": "Initializing embeddings...", "model": "BAAI/bge-small-en-v1.5"}
+2026-03-16 22:58:59,384 - vectorstore - ERROR - {"timestamp": "2026-03-16T17:28:59.383984", "event": "Failed to initialize embeddings", "error": "'EmbeddingConfig' object has no attribute 'batch_size'"}
+2026-03-16 22:59:01,384 - vectorstore - INFO - {"timestamp": "2026-03-16T17:29:01.384593", "event": "Initializing embeddings...", "model": "BAAI/bge-small-en-v1.5"}
+2026-03-16 22:59:01,385 - vectorstore - ERROR - {"timestamp": "2026-03-16T17:29:01.385068", "event": "Failed to initialize embeddings", "error": "'EmbeddingConfig' object has no attribute 'batch_size'"}
+2026-03-16 23:00:35,695 - vectorstore - INFO - {"timestamp": "2026-03-16T17:30:35.695340", "event": "VectorStoreManager initialized", "collection": "main"}
+2026-03-16 23:00:35,696 - vectorstore - INFO - {"timestamp": "2026-03-16T17:30:35.696005", "event": "Initializing embeddings...", "model": "BAAI/bge-small-en-v1.5"}
+2026-03-16 23:00:50,879 - vectorstore - INFO - {"timestamp": "2026-03-16T17:30:50.879902", "event": "Embeddings initialized successfully"}
+2026-03-16 23:00:50,880 - vectorstore - INFO - {"timestamp": "2026-03-16T17:30:50.880375", "event": "Creating vector store...", "num_docs": 40, "persist": true}
+2026-03-16 23:00:58,828 - vectorstore - INFO - {"timestamp": "2026-03-16T17:30:58.828720", "event": "Vector store created successfully"}

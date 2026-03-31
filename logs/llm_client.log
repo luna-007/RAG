@@ -1,0 +1,2 @@
+2026-03-16 23:01:03,601 - llm_client - INFO - {"timestamp": "2026-03-16T17:31:03.601526", "event": "Initializing LLM in Local mode", "model": "google/flan-t5-large", "base_url": "http://localhost:8000/v1"}
+2026-03-16 23:01:05,021 - llm_client - INFO - {"timestamp": "2026-03-16T17:31:05.021170", "event": "LLM initialized successfully"}

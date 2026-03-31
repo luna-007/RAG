@@ -1,0 +1,9 @@
+2026-03-16 22:54:58,601 - processors - INFO - {"timestamp": "2026-03-16T17:24:58.601596", "event": "Initialized WikipediaDocumentCleaner", "source_type": "wikipedia"}
+2026-03-16 22:54:58,605 - processors - INFO - {"timestamp": "2026-03-16T17:24:58.605911", "event": "Documents cleaned", "original": 1, "cleaned": 1, "filtered": 0}
+2026-03-16 22:54:59,907 - processors - INFO - {"timestamp": "2026-03-16T17:24:59.907590", "event": "Chunks filtered", "original": 41, "kept": 40, "filtered": 1}
+2026-03-16 22:58:56,083 - processors - INFO - {"timestamp": "2026-03-16T17:28:56.083532", "event": "Initialized WikipediaDocumentCleaner", "source_type": "wikipedia"}
+2026-03-16 22:58:56,088 - processors - INFO - {"timestamp": "2026-03-16T17:28:56.088412", "event": "Documents cleaned", "original": 1, "cleaned": 1, "filtered": 0}
+2026-03-16 22:58:57,350 - processors - INFO - {"timestamp": "2026-03-16T17:28:57.350761", "event": "Chunks filtered", "original": 41, "kept": 40, "filtered": 1}
+2026-03-16 23:00:34,241 - processors - INFO - {"timestamp": "2026-03-16T17:30:34.241049", "event": "Initialized WikipediaDocumentCleaner", "source_type": "wikipedia"}
+2026-03-16 23:00:34,248 - processors - INFO - {"timestamp": "2026-03-16T17:30:34.248401", "event": "Documents cleaned", "original": 1, "cleaned": 1, "filtered": 0}
+2026-03-16 23:00:35,628 - processors - INFO - {"timestamp": "2026-03-16T17:30:35.628678", "event": "Chunks filtered", "original": 41, "kept": 40, "filtered": 1}

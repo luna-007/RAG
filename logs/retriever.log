@@ -1,0 +1,2 @@
+2026-03-16 23:00:58,829 - retriever - INFO - {"timestamp": "2026-03-16T17:30:58.829903", "event": "Setting up retrieval pipeline..."}
+2026-03-16 23:01:03,600 - retriever - INFO - {"timestamp": "2026-03-16T17:31:03.600863", "event": "Retrieval pipeline ready", "initial_k": 60, "rerank_top_n": 10}

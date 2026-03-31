@@ -1,0 +1,45 @@
+2026-03-16 22:54:57,198 - main - INFO - {"timestamp": "2026-03-16T17:24:57.198844", "event": "RAG System initialized"}
+2026-03-16 22:54:57,199 - main - INFO - {"timestamp": "2026-03-16T17:24:57.199532", "event": "Starting RAG setup", "url": "https://en.wikipedia.org/wiki/India", "force_rebuild": true}
+2026-03-16 22:54:57,199 - main - INFO - {"timestamp": "2026-03-16T17:24:57.199861", "event": "Building new vector store..."}
+2026-03-16 22:54:57,200 - main - INFO - {"timestamp": "2026-03-16T17:24:57.200142", "event": "Loading documents..."}
+2026-03-16 22:54:58,598 - main - INFO - {"timestamp": "2026-03-16T17:24:58.598075", "event": "Loaded 1 documents"}
+2026-03-16 22:54:58,598 - main - INFO - {"timestamp": "2026-03-16T17:24:58.598672", "event": "Cleaning documents..."}
+2026-03-16 22:54:58,606 - main - INFO - {"timestamp": "2026-03-16T17:24:58.606475", "event": "Splitting documents..."}
+2026-03-16 22:54:59,900 - main - INFO - {"timestamp": "2026-03-16T17:24:59.899982", "event": "Created 41 chunks"}
+2026-03-16 22:54:59,900 - main - INFO - {"timestamp": "2026-03-16T17:24:59.900457", "event": "Filtering chunks..."}
+2026-03-16 22:54:59,908 - main - INFO - {"timestamp": "2026-03-16T17:24:59.908017", "event": "Kept 40 chunks after filtering"}
+2026-03-16 22:54:59,944 - main - INFO - {"timestamp": "2026-03-16T17:24:59.944370", "event": "Token statistics", "total_tokens": 16318, "max_tokens": 500, "min_tokens": 282, "avg_tokens": 407.95, "num_documents": 40}
+2026-03-16 22:54:59,945 - main - INFO - {"timestamp": "2026-03-16T17:24:59.944978", "event": "Creating vector store..."}
+2026-03-16 22:55:03,952 - main - ERROR - {"timestamp": "2026-03-16T17:25:03.952036", "event": "RAG setup failed", "error": "RetryError[<Future at 0x2517eb16850 state=finished raised TypeError>]", "url": "https://en.wikipedia.org/wiki/India"}
+2026-03-16 22:58:54,708 - main - INFO - {"timestamp": "2026-03-16T17:28:54.708782", "event": "RAG System initialized"}
+2026-03-16 22:58:54,709 - main - INFO - {"timestamp": "2026-03-16T17:28:54.709306", "event": "Starting RAG setup", "url": "https://en.wikipedia.org/wiki/India", "force_rebuild": true}
+2026-03-16 22:58:54,709 - main - INFO - {"timestamp": "2026-03-16T17:28:54.709741", "event": "Building new vector store..."}
+2026-03-16 22:58:54,710 - main - INFO - {"timestamp": "2026-03-16T17:28:54.710016", "event": "Loading documents..."}
+2026-03-16 22:58:56,081 - main - INFO - {"timestamp": "2026-03-16T17:28:56.081322", "event": "Loaded 1 documents"}
+2026-03-16 22:58:56,081 - main - INFO - {"timestamp": "2026-03-16T17:28:56.081882", "event": "Cleaning documents..."}
+2026-03-16 22:58:56,088 - main - INFO - {"timestamp": "2026-03-16T17:28:56.088792", "event": "Splitting documents..."}
+2026-03-16 22:58:57,346 - main - INFO - {"timestamp": "2026-03-16T17:28:57.346602", "event": "Created 41 chunks"}
+2026-03-16 22:58:57,347 - main - INFO - {"timestamp": "2026-03-16T17:28:57.347054", "event": "Filtering chunks..."}
+2026-03-16 22:58:57,351 - main - INFO - {"timestamp": "2026-03-16T17:28:57.351198", "event": "Kept 40 chunks after filtering"}
+2026-03-16 22:58:57,382 - main - INFO - {"timestamp": "2026-03-16T17:28:57.382069", "event": "Token statistics", "total_tokens": 16318, "max_tokens": 500, "min_tokens": 282, "avg_tokens": 407.95, "num_documents": 40}
+2026-03-16 22:58:57,382 - main - INFO - {"timestamp": "2026-03-16T17:28:57.382482", "event": "Creating vector store..."}
+2026-03-16 22:59:01,385 - main - ERROR - {"timestamp": "2026-03-16T17:29:01.385447", "event": "RAG setup failed", "error": "RetryError[<Future at 0x20390312490 state=finished raised AttributeError>]", "url": "https://en.wikipedia.org/wiki/India"}
+2026-03-16 23:00:32,990 - main - INFO - {"timestamp": "2026-03-16T17:30:32.990605", "event": "RAG System initialized"}
+2026-03-16 23:00:32,991 - main - INFO - {"timestamp": "2026-03-16T17:30:32.991134", "event": "Starting RAG setup", "url": "https://en.wikipedia.org/wiki/India", "force_rebuild": true}
+2026-03-16 23:00:32,991 - main - INFO - {"timestamp": "2026-03-16T17:30:32.991397", "event": "Building new vector store..."}
+2026-03-16 23:00:32,991 - main - INFO - {"timestamp": "2026-03-16T17:30:32.991664", "event": "Loading documents..."}
+2026-03-16 23:00:34,239 - main - INFO - {"timestamp": "2026-03-16T17:30:34.239425", "event": "Loaded 1 documents"}
+2026-03-16 23:00:34,239 - main - INFO - {"timestamp": "2026-03-16T17:30:34.239915", "event": "Cleaning documents..."}
+2026-03-16 23:00:34,249 - main - INFO - {"timestamp": "2026-03-16T17:30:34.248994", "event": "Splitting documents..."}
+2026-03-16 23:00:35,620 - main - INFO - {"timestamp": "2026-03-16T17:30:35.620516", "event": "Created 41 chunks"}
+2026-03-16 23:00:35,621 - main - INFO - {"timestamp": "2026-03-16T17:30:35.621233", "event": "Filtering chunks..."}
+2026-03-16 23:00:35,629 - main - INFO - {"timestamp": "2026-03-16T17:30:35.629138", "event": "Kept 40 chunks after filtering"}
+2026-03-16 23:00:35,693 - main - INFO - {"timestamp": "2026-03-16T17:30:35.693827", "event": "Token statistics", "total_tokens": 16318, "max_tokens": 500, "min_tokens": 282, "avg_tokens": 407.95, "num_documents": 40}
+2026-03-16 23:00:35,694 - main - INFO - {"timestamp": "2026-03-16T17:30:35.694401", "event": "Creating vector store..."}
+2026-03-16 23:00:58,829 - main - INFO - {"timestamp": "2026-03-16T17:30:58.829487", "event": "Setting up retrieval and generation..."}
+2026-03-16 23:01:05,025 - main - INFO - {"timestamp": "2026-03-16T17:31:05.025248", "event": "Retrieval and generation setup complete"}
+2026-03-16 23:01:05,026 - main - INFO - {"timestamp": "2026-03-16T17:31:05.026003", "event": "RAG setup complete!"}
+2026-03-16 23:01:08,186 - main - INFO - {"timestamp": "2026-03-16T17:31:08.186027", "event": "Processing query", "query": "hi"}
+2026-03-16 23:01:26,763 - main - ERROR - {"timestamp": "2026-03-16T17:31:26.763417", "event": "Query failed", "query": "hi", "error": "Connection error."}
+2026-03-16 23:01:32,210 - main - INFO - {"timestamp": "2026-03-16T17:31:32.210353", "event": "Processing query", "query": "hi"}
+2026-03-16 23:01:50,408 - main - ERROR - {"timestamp": "2026-03-16T17:31:50.408382", "event": "Query failed", "query": "hi", "error": "Connection error."}

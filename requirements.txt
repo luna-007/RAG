@@ -1,0 +1,46 @@
+# requirements.txt
+# Production RAG System Dependencies
+
+# Core LangChain
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-huggingface>=0.0.1
+langchain-chroma>=0.1.0
+langchain-community>=0.0.20
+langchain-classic>=0.0.1
+
+# Document processing
+beautifulsoup4>=4.12.0
+pypdf>=3.0.0
+lxml>=4.9.0
+
+# ML/AI Core
+transformers>=4.30.0
+torch>=2.0.0
+flashrank>=0.2.0
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Utilities
+python-dotenv>=1.0.0
+tenacity>=8.2.0
+pydantic>=2.0.0
+requests>=2.31.0
+
+# Development & Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+pytest-asyncio>=0.21.0  # For async tests
+
+# Optional: Alternative Vector Stores (install as needed)
+# faiss-cpu>=1.7.4  # For FAISS backend
+# pinecone-client>=3.0.0  # For Pinecone backend
+# langchain-pinecone>=0.0.1  # For Pinecone integration
+# qdrant-client>=1.7.0  # For Qdrant backend
+# langchain-qdrant>=0.0.1  # For Qdrant integration
+
+# Optional: Advanced Features
+# keyring>=24.0.0  # For secure credential storage
+# ragas>=0.1.0  # For advanced RAG evaluation
+# trulens-eval>=0.20.0  # For response quality evaluation
