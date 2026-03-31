@@ -5,7 +5,7 @@ Cleans and processes ServiceNow HTML content.
 """
 import re
 from typing import List
-from langchain.docstore.document import Document
+from langchain_classic.docstore.document import Document
 from src.processors.base_cleaner import BaseDocumentCleaner
 from src.utils.logging_utils import get_logger
 

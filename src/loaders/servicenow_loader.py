@@ -6,7 +6,7 @@ Fetches knowledge articles via ServiceNow REST API.
 import os
 import requests
 from typing import List, Optional, Dict, Any
-from langchain.docstore.document import Document
+from langchain_classic.docstore.document import Document
 from tenacity import retry, stop_after_attempt, wait_exponential
 from src.utils.logging_utils import get_logger
 
